@@ -1,25 +1,19 @@
-# Day 1 - Task 1: AWS Console & CLI Setup
+```markdown
+# DevOps with AWS - Virtual Internship
 
-## Objective
+This repository documents tasks completed as part of the DevOps with AWS
+virtual internship track. Each task includes a README, PDF report, and
+supporting screenshots.
+```
 
-Install and configure the AWS CLI, create a scoped IAM user, generate
-programmatic access keys, and verify authentication.
+```
 
-## Steps
+## Environment
+- **IAM User:** `devops-intern` (scoped permissions)
+- **Region:** us-east-1
+- **Tools:** AWS CLI v2, AWS Console
 
-1. Created IAM user `devops-intern` with `AmazonVPCFullAccess` policy
-   (scoped instead of AdministratorAccess - least privilege).
-2. Generated programmatic access keys (CLI use case).
-3. Installed AWS CLI v2 and verified with `aws --version`.
-4. Configured CLI via `aws configure`.
-5. Verified authentication with `aws sts get-caller-identity`.
-
-## Screenshots
-
-See `/screenshots` folder.
-
-## Key Takeaway
-
-Used a scoped IAM policy (AmazonVPCFullAccess) rather than
-AdministratorAccess, reducing blast radius while covering both
-this task's CLI verification and the upcoming VPC task.
+## Notes
+Each task folder is self-contained with its own README describing the
+objective, steps taken, and screenshots.
+```
